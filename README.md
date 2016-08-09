@@ -18,9 +18,9 @@ The data used can be found [here](https://www.start.umd.edu/gtd/contact/). Choos
 ---
 ## Tools Used
 
-[pandas](http://pandas.pydata.org/)
-[matplotlib](http://matplotlib.org/)
-[numpy](http://www.numpy.org/)
-[seaborn](https://stanford.edu/~mwaskom/software/seaborn/)
-[anaconda](https://docs.continuum.io/anaconda/)
-* Full download contains the [Conda](http://conda.pydata.org/docs/) package manager, as well as [Jupyter Notebook](http://jupyter.org/)
+* [pandas](http://pandas.pydata.org/)
+* [matplotlib](http://matplotlib.org/)
+* [numpy](http://www.numpy.org/)
+* [seaborn](https://stanford.edu/~mwaskom/software/seaborn/)
+* [anaconda](https://docs.continuum.io/anaconda/)
+  * Full download contains the [Conda](http://conda.pydata.org/docs/) package manager, as well as [Jupyter Notebook](http://jupyter.org/)
