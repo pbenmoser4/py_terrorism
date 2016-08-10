@@ -94,3 +94,6 @@ ENV/
 
 # src folder, due to large file sizes
 src/
+
+# DS Store mac hidden files
+*/.DS_Store
