@@ -15,7 +15,7 @@ def clean_excel(filepath, write_file='src/terrorism.csv', delimiter='\t', newlin
     book = xlrd.open_workbook(filepath)
     sheet = book.sheet_by_index(0)
 
-    f = open(write_file, 'a')
+    f = open(write_file, 'w')
 
     for row in range(sheet.nrows):
         for column in range(sheet.ncols):

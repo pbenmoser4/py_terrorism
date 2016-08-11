@@ -10,6 +10,8 @@ import xlrd
 import util.clean as clean
 
 terror_path = 'src/globalterrorismdb_0616dist.xlsx'
+res_path = 'src/terrorism.csv'
+delimiter = '|*|'
 
 # def clean_data(file):
 #     with open('src/terrorism-100.csv') as _file:
@@ -35,4 +37,6 @@ terror_path = 'src/globalterrorismdb_0616dist.xlsx'
 
 if __name__ == "__main__":
     print ('executing __main__')
-    clean.clean_excel(terror_path)
+    clean.clean_excel(terror_path, write_file = res_path, delimiter = delimiter)
+
+    table = pd.read_table(res_path, delimiter = delimiter)
